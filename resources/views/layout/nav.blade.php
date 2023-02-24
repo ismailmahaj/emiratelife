@@ -9,7 +9,8 @@
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Poppins:wght@300;400;500;600;700&display=swap">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/plugins.css" />
     <link rel="stylesheet" href="css/style.css" />
     <!-- CSS only -->
@@ -48,26 +49,24 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown"> <span class="nav-link "> <a href="/"> Accueil </a></span>
                     </li>
-                            <li class="nav-item dropdown"><span class="nav-link "><a href="/voituresport">Nos voitures </a> </span>   </li>
+                    <li class="nav-item dropdown"><span class="nav-link "><a href="/voituresport">Nos voitures </a>
+                        </span> </li>
 
-                    <li class="nav-item dropdown"> <span class="nav-link"> Nos activite <i class="ti-angle-down"></i></span>
+                    <li class="nav-item dropdown"> <span class="nav-link"> Nos activite <i
+                                class="ti-angle-down"></i></span>
                         <ul class="dropdown-menu last">
                             <li class="dropdown-item"><a href="/yacht">Yacht</a></li>
                             <li class="dropdown-item"><a href="/quad">Quad & Buggy</a></li>
-
-
-
-
                         </ul>
                     </li>
-                  <!--  <li class="nav-item"><a class="nav-link" href="">Galerie</a></li>-->
-
-                    </li>
+                    <!--  <li class="nav-item"><a class="nav-link" href="">Galerie</a></li>-->
+                    <li class="nav-item"><a class="nav-link" href="/galerie">Galerie</a></li>
                     <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <body>
         @yield('content')
         <footer class="footer clearfix">
@@ -118,7 +117,8 @@
                 <div class="bottom-footer-text">
                     <div class="row copyright">
                         <div class="col-md-12">
-                            <p class="mb-0">©2022 <a href="https://easyagency.be/">EasyAgency</a>. All rights reserved.</p>
+                            <p class="mb-0">©2022 <a href="https://easyagency.be/">EasyAgency</a>. All rights
+                                reserved.</p>
                         </div>
                     </div>
                 </div>
@@ -128,9 +128,12 @@
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <div class="elfsight-app-bba8d03e-3d0f-4765-963e-8e857de19461"></div>
         <!-- jQuery -->
-       <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
-        <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+        <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
+        <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+            integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+        </script>
         <script src="js/jquery-migrate-3.0.0.min.js"></script>
         <script src="js/modernizr-2.6.2.min.js"></script>
         <script src="js/imagesloaded.pkgd.min.js"></script>
@@ -149,7 +152,7 @@
         <script src="js/jquery.counterup.min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/custom.js"></script>
-        </body>
-
-        </html>
     </body>
+
+</html>
+</body>

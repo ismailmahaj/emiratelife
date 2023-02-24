@@ -55,3 +55,6 @@ Route::get('/contact', function () {
 Route::get('/helico', function () {
     return view('helico');
 });
+Route::get('/galerie', function () {
+    return view('galerie');
+});
